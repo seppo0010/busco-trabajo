@@ -99,9 +99,8 @@ communication with back-end services and JavaScript (FlightJS) for presentation.
 ## Empresas donde no quiero trabajar por ahora
 
 * Mercado Libre
-* Rappi
-* PedidosYa
-* Glovo
+* Entregas a domicilio
+* Bancos
 
 ## Más información
 
