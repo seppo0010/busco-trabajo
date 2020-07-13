@@ -106,3 +106,5 @@ communication with back-end services and JavaScript (FlightJS) for presentation.
 
 [LinkedIn](https://www.linkedin.com/in/seppo0010/)
 [Curriculum Vitae](cv_sebastian_waisbrot.pdf)
+
+Email: [seppo0010@gmail.com](mailto:seppo0010@gmail.com)
