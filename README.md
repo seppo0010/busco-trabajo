@@ -96,11 +96,12 @@ Web engineer working on the Composer and Media Expression team. Built the web
 client for the GIF Search and Stickers in twitter.com using Scala for
 communication with back-end services and JavaScript (FlightJS) for presentation. 
 
-## Empresas donde no quiero trabajar por ahora
+## Empresas y rubros donde no quiero trabajar por ahora
 
 * Mercado Libre
 * Entregas a domicilio
-* Bancos
+* Bancos, empresas financieras, criptomonedas.
+* Videojuegos
 
 ## Más información
 
