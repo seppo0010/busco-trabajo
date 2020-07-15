@@ -39,7 +39,7 @@ target/index.html: target
 	cat "${BASE_PATH}/html/post.html" >> "${BASE_PATH}/target/index.html"
 
 target/screenshot.png: target
-	docker run --mount type=bind,source="${BASE_PATH}"/target,target=/target jeanphix/ghost.py:2.0.0-dev python3 -c "from ghost import Ghost;ghost = Ghost();session=ghost.start();session.open('file:///target/index.html');session.wait_for_page_loaded();session.capture_to('target/screenshot.png', region=(240, -40, 1460, 1420))"
+	docker run --mount type=bind,source="${BASE_PATH}"/target,target=/target jeanphix/ghost.py:2.0.0-dev python3 -c "from ghost import Ghost;ghost = Ghost();session=ghost.start();session.open('file:///target/index.html');session.wait_for_page_loaded();session.capture_to('target/screenshot.png', region=(240, -40, 1460, 650))"
 
 target/cv_sebastian_waisbrot.pdf: target
 	cp cv_sebastian_waisbrot.pdf target/
