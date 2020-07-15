@@ -1,6 +1,7 @@
 .PHONY: all clean publish test-dirty
 
 BASE_PATH := $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
+CURRENT_BRANCH="$(shell cd $(BASE_PATH) && git rev-parse --abbrev-ref HEAD)"
 
 all: target/skeleton.css target/normalize.css target/index.html target/screenshot.png target/cv_sebastian_waisbrot.pdf
 	
@@ -21,7 +22,7 @@ publish: all test-dirty
 	git add .
 	git commit -m 'Update web'
 	git push origin gh-pages -f
-	git checkout -
+	git checkout "${CURRENT_BRANCH}"
 
 target:
 	mkdir -p target
