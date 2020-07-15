@@ -19,7 +19,7 @@ Me gusta preparar y dar charlas y talleres.
 Escribir sobre cosas que aprendí de forma accesible.
 
 * [Programming Concepts in the Real World](https://seppo0010.github.io/pcitrw/)
-* [Predicción de sueldo](https://github.com/seppo0010/sysarmy-sueldos-2020.1/blob/master/text/prediccion-de-sueldo/README.md)
+* [Predicción de sueldo](https://github.com/seppo0010/sysarmy-sueldos-2020.1/blob/master/text/prediccion-de-sueldo/README.md) (usando aprendizaje automático)
 * [Promesas en JavaScript](https://github.com/seppo0010/promises-js-explanation)
 
 También hacer cursos.
@@ -33,7 +33,7 @@ También hacer cursos.
 
 Escribí proyectos por el desafío y para aprender.
 
-* [Modelo de predicción de sueldos](https://seppo0010.github.io/sysarmy-sueldos-2020.1/).
+* [Formulario interactivo de predicción de sueldos](https://seppo0010.github.io/sysarmy-sueldos-2020.1/).
 * [rsedis](https://github.com/seppo0010/rsedis). Reimplementación del servidor de Redis en Rust.
 * [rlite](https://github.com/seppo0010/rlite). Motor de base de datos basado en archivo (como SQLite) con los comandos de Redis.
 * [vortices-router](https://github.com/seppo0010/vortices-router). Router configurable y dockerizable escrito en golang.
