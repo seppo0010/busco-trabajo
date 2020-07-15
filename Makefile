@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all clean publish
 
 BASE_PATH := $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
 
@@ -6,6 +6,17 @@ all: target/skeleton.css target/normalize.css target/index.html target/screensho
 	
 clean:
 	rm -rf "${BASE_PATH}/target"
+
+publish: all
+	cd "${BASE_PATH}"
+	git branch -D gh-pages || true
+	git checkout --orphan=gh-pages
+	git rm -rf .
+	mv target/* .
+	rmdir target
+	git add .
+	git commit -m 'Update web'
+	git push origin gh-pages -f
 
 target:
 	mkdir -p target
