@@ -31,7 +31,7 @@ target/skeleton.css: target
 	docker run arunvelsriram/utils wget https://raw.githubusercontent.com/dhg/Skeleton/v2.0.2/css/skeleton.css -O - > target/skeleton.css
 
 target/normalize.css: target
-	docker run arunvelsriram/utils wget https://raw.githubusercontent.com/dhg/Skeleton/v2.0.2/css/skeleton.css -O - > target/normalize.css
+	docker run arunvelsriram/utils wget https://raw.githubusercontent.com/dhg/Skeleton/v2.0.2/css/normalize.css -O - > target/normalize.css
 
 target/index.html: target
 	cat "${BASE_PATH}/html/pre.html" > "${BASE_PATH}/target/index.html"
