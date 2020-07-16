@@ -85,16 +85,17 @@ algunas.
 
 ### Despegar
 
-Improve the internal tools to create machine learning models for fraud
-detection. Build an ID identification and validation service. Create a liveness
-detection based on real time communication. Develop tools for traffic and
-anomalies monitoring and detection.
+My team and I improve the internal tools to create machine learning models for
+fraud detection, build an ID identification and validation service, create a
+liveness detection based on real time communication and develop tools for
+traffic and anomalies monitoring and detection.
 
 ### Twitter
 
-Web engineer working on the Composer and Media Expression team. Built the web
-client for the GIF Search and Stickers in twitter.com using Scala for
-communication with back-end services and JavaScript (FlightJS) for presentation. 
+I was a web engineer working on the Composer and Media Expression team. I built
+the web client for the GIF Search and Stickers in twitter.com using Scala for
+communication with back-end services and JavaScript (FlightJS) for presentation.
+
 
 ## Empresas y rubros donde no quiero trabajar por ahora
 
